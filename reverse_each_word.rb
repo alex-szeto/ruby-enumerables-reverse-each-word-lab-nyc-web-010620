@@ -12,3 +12,6 @@ def reverse_each_word(string)
   return output_array.join(" ")
   
 end
+
+def second_example(string)
+  string.collect()
