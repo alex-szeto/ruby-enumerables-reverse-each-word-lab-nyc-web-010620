@@ -5,5 +5,6 @@ def reverse_each_word(string)
   words.each{|word|
     output_array.unshift(word)
   }
-  return output_array.join(" ")
+  puts output_array
+  #return output_array.join(" ")
 end
