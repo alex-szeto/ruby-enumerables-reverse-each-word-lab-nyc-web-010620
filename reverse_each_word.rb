@@ -9,10 +9,7 @@ def reverse_each_word(string)
     }
     output_array << reversed_word.join()
   }
+  output_array.collect{|x| x}
   return output_array.join(" ")
   
-end
-
-def second_example(string)
-  return string.collect{ |x| x.reverse}
 end
