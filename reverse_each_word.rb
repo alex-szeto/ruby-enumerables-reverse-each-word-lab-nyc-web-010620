@@ -3,7 +3,10 @@ def reverse_each_word(string)
   output_array = []
   
   word_split.each{ |word|
-    word.each{}
+  reversed_word = []
+    word.each{ |letter|
+      reversed_word
+    }
     
   }
   
