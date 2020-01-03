@@ -4,7 +4,7 @@ def reverse_each_word(string)
   
   word_split.each{ |word|
   reversed_word = []
-    word.each{ |letter|
+    word.each_char{ |letter|
       reversed_word.unshift(letter)
     }
     output_array << reversed_word.join()
