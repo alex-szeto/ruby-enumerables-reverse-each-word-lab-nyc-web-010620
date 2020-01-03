@@ -14,4 +14,5 @@ def reverse_each_word(string)
 end
 
 def second_example(string)
-  string.collect{ |x| }
+  return string.collect{ |x| x.reverse}
+end
