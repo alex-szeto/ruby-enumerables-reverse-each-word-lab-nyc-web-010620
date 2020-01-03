@@ -1,15 +1,11 @@
 def reverse_each_word(string)
+  word_split = string.split( )
   output_array = []
-  word = []
   
-  words = string.split(" ")
-  words.each{|word|
-    word.each{|letter|
-      word.unshift(letter)
-    }
-    output_array << word
-    word = []
+  word_split.each{ |word|
+    word.each{}
+    
   }
-  puts output_array
-  #return output_array.join(" ")
+  
+  
 end
