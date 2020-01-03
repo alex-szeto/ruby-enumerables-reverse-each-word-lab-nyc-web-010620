@@ -4,6 +4,6 @@ def reverse_each_word(string)
   string.each{|letter|
     output_array.unshift(letter)
   }
-  return output_array.join()
-  
+  arr = output_array.join()
+  return arr
 end
