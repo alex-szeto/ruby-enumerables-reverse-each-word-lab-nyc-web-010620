@@ -9,6 +9,6 @@ def reverse_each_word(string)
     }
     output_array << reversed_word.join()
   }
-  return output_array
+  return output_array.join(" ")
   
 end
