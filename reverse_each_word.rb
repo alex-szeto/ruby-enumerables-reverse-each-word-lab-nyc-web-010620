@@ -3,6 +3,6 @@ def reverse(string)
   string.each{|letter|
     output_array.unshift(letter)
   }
-  return output_array.join
+  return output_array.join()
   
 end
