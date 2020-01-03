@@ -1,4 +1,7 @@
 def reverse(string)
-  string.each
+  output_array = []
+  string.each{|letter|
+    
+  }
   
 end
